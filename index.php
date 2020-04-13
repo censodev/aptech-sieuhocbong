@@ -21,8 +21,9 @@
     $url = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]" . strtok($_SERVER["REQUEST_URI"], '?');
     $version = '?v=' . time();
 
-    $mode = 'dev';
-    // $mode = 'prod';
+    // MODE
+    // $mode = 'dev';
+    $mode = 'prod';
 
     $ext = '';
 
