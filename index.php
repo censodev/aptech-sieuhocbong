@@ -22,8 +22,8 @@
     $version = '?v=' . time();
 
     // MODE
-    // $mode = 'dev';
-    $mode = 'prod';
+    $mode = 'dev';
+    // $mode = 'prod';
 
     $ext = '';
 
@@ -235,7 +235,6 @@
     <!-- Main Content -->
     <section id="section-banner" class="page-section">
         <img class="pc-banner" src="img/banner-pc-sieuhocbong-min.png">
-        <img class="mb-banner" src="img/banner-mb-sieuhocbong-min.png">
     </section>
 
     <section id="section-1" class="page-section">
@@ -961,11 +960,53 @@
     <section id="section-9" class="page-section py-5" data-aos="fade-up">
         <div class="container">
             <div class="row align-items-start">
-                <div class="col-lg-6">
-                    <h3 class="section-heading text-white mb-5 text-center text-lg-left">
-                        Chính sách hỗ trợ
+                <div class="col-lg-7">
+                    <h3 class="section-heading text-white text-center text-lg-left mb-0">
+                        Siêu học bổng IT đánh bại Cô Vi
                     </h3>
-                    <img src="./img/img-quatang-2-min.png?v1" class="mw-100 mb-5 mb-lg-0 lazy" />
+                    <div class="panel lazy d-flex flex-wrap panel-1">
+                        <img src="./img/img-quatang-2-min.png?v1" class="mw-100 mb-lg-0" />
+                        <div class="d-flex flex-column justify-content-center">
+                            <p class="text-white">Khi nhập học trước</p>
+                            <p class="text-white"><b>20/04/2020</b></p>
+                            <br>
+                            <p class="text-white">Chú ý: Áp dụng cho</p>
+                            <ul class="pl-3">
+                                <li class="yellow text-white"><b>Khai giảng đợt 1: 04/2020</b></li>
+                                <li class="yellow text-white"><b>Khai giảng đợt 2: 09/2020</b></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="text-white">Dịch Cô Vi đang hoành hành khắp thế giới, mọi người lùi lại phía sau nhưng Công nghệ 4.0 đang kết nối thế giới với nhau. Chính những anh hùng IT đang giải cứu thế giới thoát khỏi sự sợ hãi để sẵn sàng chuyển sang phong cách sống mới. Để chắp thêm đôi cánh cho những chiến binh đang sôi sục tham gia cộng đồng IT, cùng giải cứu thế giới, lần đầu tiên trong lịch sử 30 năm, Tập đoàn Aptech đã lập Quỹ hỗ trợ Siêu Học bổng "IT đánh bại Cô Vi" để giúp hàng trăm nghìn bạn trẻ thế giới thực hiện được ước mơ thành chiến binh công nghệ.</p>
+                        </div>
+                        <div class="d-flex align-items-center p-2 btn btn-to-detail mb-4">
+                            <div class="white-circle">
+                                <img src="./img/arrow-next.png" alt="">
+                            </div>
+                            <div class="text-white pl-3"><i>Chi tiết Siêu Học bổng</i></div>
+                        </div>
+                    </div>
+                    <div class="panel panel-2 lazy d-none flex-column text-white">
+                        <h5 class="pt-3 text-bold">Gói Siêu Học bổng - IT đánh bại Cô Vi sẽ là công cụ giúp bạn trở thành người hùng.</h5>
+                        <br>
+                        <p>Tổng giá trị học bổng lên tới <span class="text-bold">42.000.000 VNĐ</span> bao gồm:</p>
+                        <ul class="p-0">
+                            <li class="pb-1">✔ Laptop thời thượng <span class="text-bold">Mac Air 13”</span>, 128GB trị giá <span class="text-bold">25.290.000 VNĐ</span></li>
+                            <li class="pb-1">✔ Đồng hồ <span class="text-bold">Apple Watch</span> chính hãng VN/A.</li>
+                            <li class="pb-1">✔ Điện thoại Iphone chính hãng VN/A.</li>
+                            <li class="pb-1">✔ <span class="text-bold">60%</span> học bổng tiếng Anh Quốc tế với giảng viên nước ngoài trị giá <span class="text-bold">14.000.000 VNĐ.</span></li>
+                            <li class="pb-1">✔ <span class="text-bold">100%</span> học bổng bộ kỹ năng mềm lãnh đạo bản thân trị giá <span class="text-bold">2.400.000 VNĐ.</span></li>
+                            <li class="pb-1">✔ Ba lô và đồng phục Aptech thời trang.</li>
+                        </ul>
+                        <p>Đồng thời, học viên được hưởng chương trình “Tín dụng Giáo dục – Lãi suất <span class="text-bold">0%</span>” của các ngân hàng, chỉ cần đóng trước từ <span class="text-bold">793.000 VNĐ.</span></p>
+                        <div class="d-flex align-items-center p-2 btn btn-backup mb-4">
+                            <div class="white-circle">
+                                <img src="./img/x-back.png" alt="">
+                            </div>
+                            <div class="text-white text-bold pl-3"><i>Đóng</i></div>
+                        </div>
+                    </div>
+                    
                 </div>
                 <div class="col-lg-5">
                     <h3 class="section-heading text-center text-white">
@@ -997,7 +1038,7 @@
                         </div>
                         <div class="mt-3 text-center">
                             <button type="submit" class="btn btn-danger text-uppercase text-white px-4">
-                                Gửi đăng ký
+                                Nhập thông tin học bổng
                             </button>
                         </div>
                     </form>
@@ -1049,6 +1090,21 @@
 
     <!-- SCRIPT -->
     <script type="text/javascript" src="dist/script<?php echo $ext ?>.js<?php echo $version; ?>" async></script>
+    
+    <script>
+        document.querySelector('.btn-to-detail').addEventListener('click', e => {
+            document.querySelector('.panel-1').classList.remove('d-flex')
+            document.querySelector('.panel-1').classList.add('d-none')
+            document.querySelector('.panel-2').classList.remove('d-none')
+            document.querySelector('.panel-2').classList.add('d-flex')
+        })
+        document.querySelector('.btn-backup').addEventListener('click', e => {
+            document.querySelector('.panel-2').classList.remove('d-flex')
+            document.querySelector('.panel-2').classList.add('d-none')
+            document.querySelector('.panel-1').classList.remove('d-none')
+            document.querySelector('.panel-1').classList.add('d-flex')
+        })
+    </script>
 
     <script>
         window.fbAsyncInit = function() {
