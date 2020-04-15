@@ -22,8 +22,8 @@
     $version = '?v=' . time();
 
     // MODE
-    $mode = 'dev';
-    // $mode = 'prod';
+    // $mode = 'dev';
+    $mode = 'prod';
 
     $ext = '';
 
