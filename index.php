@@ -48,156 +48,11 @@
     <link rel="shortcut icon" href="//aptechvietnam.com.vn/sites/all/themes/aptech_news_2/favicon.ico" />
 
     <title><?php echo $titlePage ?></title>
-
-    <link rel="preload" href="dist/style<?php echo $ext ?>.css<?php echo $version; ?>" as="style" onload="this.rel='stylesheet'" type="text/css" />
-    <link rel="preload" href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=vietnamese" as="style" onload="this.rel='stylesheet'" type="text/css" />
-    <noscript>
-        <link rel="stylesheet" href="dist/style<?php echo $ext ?>.css<?php echo $version; ?>" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=vietnamese" rel="stylesheet" />
-    </noscript>
-    <script>
-        window.self !== window.top && (window.location.href = window.self.location);
-        /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
-        ! function(a) {
-            "use strict";
-            var b = function(b, c, d) {
-                function e(a) {
-                    return h.body ? a() : void setTimeout(function() {
-                        e(a)
-                    })
-                }
-
-                function f() {
-                    i.addEventListener && i.removeEventListener("load", f), i.media = d || "all"
-                }
-                var g, h = a.document,
-                    i = h.createElement("link");
-                if (c) g = c;
-                else {
-                    var j = (h.body || h.getElementsByTagName("head")[0]).childNodes;
-                    g = j[j.length - 1]
-                }
-                var k = h.styleSheets;
-                i.rel = "stylesheet", i.href = b, i.media = "only x", e(function() {
-                    g.parentNode.insertBefore(i, c ? g : g.nextSibling)
-                });
-                var l = function(a) {
-                    for (var b = i.href, c = k.length; c--;)
-                        if (k[c].href === b) return a();
-                    setTimeout(function() {
-                        l(a)
-                    })
-                };
-                return i.addEventListener && i.addEventListener("load", f), i.onloadcssdefined = l, l(f), i
-            };
-            "undefined" != typeof exports ? exports.loadCSS = b : a.loadCSS = b
-        }("undefined" != typeof global ? global : this);
-        /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
-        ! function(a) {
-            if (a.loadCSS) {
-                var b = loadCSS.relpreload = {};
-                if (b.support = function() {
-                        try {
-                            return a.document.createElement("link").relList.supports("preload")
-                        } catch (b) {
-                            return !1
-                        }
-                    }, b.poly = function() {
-                        for (var b = a.document.getElementsByTagName("link"), c = 0; c < b.length; c++) {
-                            var d = b[c];
-                            "preload" === d.rel && "style" === d.getAttribute("as") && (a.loadCSS(d.href, d, d.getAttribute("media")), d.rel = null)
-                        }
-                    }, !b.support()) {
-                    b.poly();
-                    var c = a.setInterval(b.poly, 300);
-                    a.addEventListener && a.addEventListener("load", function() {
-                        b.poly(), a.clearInterval(c)
-                    }), a.attachEvent && a.attachEvent("onload", function() {
-                        a.clearInterval(c)
-                    })
-                }
-            }
-        }(this);
-    </script>
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-        <!-- Google Tag Manager (noscript) Ha Noi-->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TK2VXKC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-    <!-- Google Tag Manager Ha Noi-->
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-TK2VXKC');
-    </script>
-    <!-- End Google Tag Manager -->
-
-    <!-- Google Tag Manager HCM-->
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-P3HWQLJ');
-    </script>
-    <!-- End Google Tag Manager -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121048787-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-121048787-1');
-    </script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-20788510-60"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-20788510-60');
-    </script>
+    <link rel="stylesheet" href="dist/style<?php echo $ext ?>.css<?php echo $version; ?>" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=vietnamese" rel="stylesheet" />
 </head>
 
 <body>
-
-    <!-- Google Tag Manager (noscript) Ha Noi-->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TK2VXKC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
     <header id="header" class="bg-white navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="/" target="_blank">
@@ -1105,28 +960,6 @@
             document.querySelector('.panel-1').classList.add('d-flex')
         })
     </script>
-
-    <script>
-        window.fbAsyncInit = function() {
-            FB.init({
-                appId: '189605364869646',
-                autoLogAppEvents: true,
-                xfbml: true,
-                version: 'v2.11'
-            });
-        };
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) {
-                return;
-            }
-            js = d.createElement(s);
-            js.id = id;
-            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-    <div class="fb-customerchat" page_id="371202429573648" minimized="true" logged_in_greeting="Xin chào! Aptech có thể giúp gì cho bạn?" logged_out_greeting="Xin chào! Aptech có thể giúp gì cho bạn?"> </div>
 </body>
 
 </html>
