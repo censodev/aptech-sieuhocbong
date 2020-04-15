@@ -22,8 +22,8 @@
     $version = '?v=' . time();
 
     // MODE
-    // $mode = 'dev';
-    $mode = 'prod';
+    $mode = 'dev';
+    // $mode = 'prod';
 
     $ext = '';
 
@@ -48,8 +48,18 @@
     <link rel="shortcut icon" href="//aptechvietnam.com.vn/sites/all/themes/aptech_news_2/favicon.ico" />
 
     <title><?php echo $titlePage ?></title>
-    <link rel="stylesheet" href="dist/style<?php echo $ext ?>.css<?php echo $version; ?>" type="text/css" />
+    
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=vietnamese" rel="stylesheet" />
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="dist/style<?php echo $ext ?>.css<?php echo $version; ?>" type="text/css" />
+
 </head>
 
 <body>
@@ -94,8 +104,8 @@
 
     <section id="section-1" class="page-section">
         <div class="container">
-            <h2 class="section-heading text-center" data-aos="fade-up">Thời đại 4.0 - Thời đại của ngành lập trình</h2>
-            <div class="row mb-4" data-aos="fade-up">
+            <h2 class="section-heading text-center" >Thời đại 4.0 - Thời đại của ngành lập trình</h2>
+            <div class="row mb-4" >
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <h5 class="font-weight-bold">Nhu cầu tuyển dụng ngành CNTT<br />tăng rất nhanh</h5>
                     <img src="./img/img-chart-min.png" class="img-chart mw-100 lazy" />
@@ -169,11 +179,11 @@
 
     <section id="section-2" class="page-section">
         <div class="container">
-            <h2 class="section-heading text-center" data-aos="fade-up">
+            <h2 class="section-heading text-center" >
                 Aptech Việt Nam – 20 Năm Tiên Phong Lập Trình
             </h2>
             <div class="row align-items-center">
-                <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-up">
+                <div class="col-lg-6 mb-5 mb-lg-0" >
                     <p class="font-weight-bold mb-4">
                         APTECH là tập đoàn đào tạo Lập trình viên của Ấn Độ
                     </p>
@@ -211,17 +221,17 @@
                         APTECH được trao nhiều giải thưởng uy tín: giải The Global Growth Company Award của Diễn đàn Kinh tế Thế giới, xếp trong danh sách Top 300 đơn vị có tốc độ tăng trưởng và hiệu quả hoạt động tốt nhất do tạp chí FORBES bình chọn, đạt danh hiệu Đơn vị đào tạo Công nghệ Thông tin (CNTT) số 1 tại các nước có nền CNTT phát triển trong nhiều năm liên tiếp...
                     </p>
                 </div>
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="50">
+                <div class="col-lg-6"  data-aos-delay="50">
                     <div class="box-video">
                         <iframe src="https://www.youtube.com/embed/I-VEiZqVohQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
-            <div class="py-5 font-weight-bold text-center" data-aos="fade-up">
+            <div class="py-5 font-weight-bold text-center" >
                 Có mặt tại Việt Nam từ năm 1999, qua các giải thưởng uy tín, Aptech khẳng định vị trí số 1 về đào tạo Lập trình.
             </div>
             <div class="row cup-list">
-                <div class="col-lg-3 mb-4 mb-lg-0" data-aos="fade-up">
+                <div class="col-lg-3 mb-4 mb-lg-0" >
                     <div class="bg-white border rounded p-3 text-center h-100">
                         <img src="./img/img-cup1-min.png" class="mw-100 mb-3 lazy" height="125" />
                         <h6 class="font-weight-bold text-uppercase">
@@ -232,7 +242,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="50">
+                <div class="col-lg-3 mb-4 mb-lg-0"  data-aos-delay="50">
                     <div class="bg-white border rounded p-3 text-center h-100">
                         <img src="./img/img-cup2-min.png" class="mw-100 mb-3 lazy" height="125" />
                         <h6 class="font-weight-bold text-uppercase">
@@ -243,7 +253,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-3 mb-4 mb-lg-0"  data-aos-delay="100">
                     <div class="bg-white border rounded p-3 text-center h-100">
                         <img src="./img/img-cup3-min.png" class="mw-100 mb-3 lazy" height="125" />
                         <h6 class="font-weight-bold text-uppercase">
@@ -254,7 +264,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="150">
+                <div class="col-lg-3 mb-4 mb-lg-0"  data-aos-delay="150">
                     <div class="bg-white border rounded p-3 text-center h-100">
                         <img src="./img/img-cup4-min.png" class="mw-100 mb-3 lazy" height="125" />
                         <h6 class="font-weight-bold text-uppercase">
@@ -271,10 +281,10 @@
 
     <section id="section-3" class="page-section">
         <div class="container">
-            <h2 class="section-heading text-white text-center" data-aos="fade-up">
+            <h2 class="section-heading text-white text-center" >
                 6 Lợi Thế Khi Học Tại Aptech Việt Nam
             </h2>
-            <div class="row pt-5 text-white" data-aos="fade-up">
+            <div class="row pt-5 text-white" >
                 <div class="col-lg-6 mb-5 mb-lg-4">
                     <div class="media align-items-center mb-2">
                         <img src="./img/icon-5-min.png" class="mr-4" />
@@ -345,7 +355,7 @@
         </div>
     </section>
 
-    <section id="section-4" class="page-section pb-0" data-aos="fade-up">
+    <section id="section-4" class="page-section pb-0" >
         <div class="container">
             <h2 class="section-heading text-center text-white">
                 CHƯƠNG TRÌNH LẬP TRÌNH VIÊN QUỐC TẾ
@@ -507,10 +517,10 @@
 
     <section id="section-5" class="page-section">
         <div class="container">
-            <h2 class="section-heading text-center text-white" data-aos="fade-up">
+            <h2 class="section-heading text-center text-white" >
                 Cơ hội việc làm
             </h2>
-            <div class="row text-white align-items-center hiring-row" data-aos="fade-up">
+            <div class="row text-white align-items-center hiring-row" >
                 <div class="col-lg-6 mb-5 mb-lg-0">
                     <p class="text-justify mb-4">
                         Sinh viên Aptech được tuyển dụng freelance, parttime ngay trong quá trình học và fulltime sau khi tốt nghiệp với mức lương khởi điểm trung bình từ <strong class="text-success">8.000.000 đ</strong> trở lên.
@@ -526,10 +536,10 @@
                     <img src="./img/img-hiring-min.png" class="mw-100 img-hiring  lazy" />
                 </div>
             </div>
-            <h5 class="text-white text-center mb-4 font-600" data-aos="fade-up">
+            <h5 class="text-white text-center mb-4 font-600" >
                 Đối tác tuyển dụng
             </h5>
-            <div class="swiper-button-outside" data-aos="fade-up">
+            <div class="swiper-button-outside" >
                 <div class="swiper-inner">
                     <div class="swiper-container swiper-multi">
                         <div class="swiper-wrapper">
@@ -553,7 +563,7 @@
         </div>
     </section>
 
-    <section id="section-6" class="page-section bg-light" data-aos="fade-up">
+    <section id="section-6" class="page-section bg-light" >
         <div class="container">
             <h2 class="section-heading text-center mb-4">
                 Liên thông du học
@@ -570,7 +580,7 @@
                                 ?>
                                 <div class="swiper-slide">
                                     <div class="slide-item">
-                                        <img src="./img/school/<?php echo $number; ?>-min.png" class="lazy" />
+                                        <img src="./img/school/<?php echo $number; ?>-min.png" />
                                     </div>
                                 </div>
                             <?php
@@ -587,10 +597,10 @@
 
     <section id="section-7" class="page-section">
         <div class="container">
-            <h2 class="section-heading text-center text-white" data-aos="fade-up">
+            <h2 class="section-heading text-center text-white" >
                 Aptech – trí lực song hành thể lực
             </h2>
-            <div class="row text-white align-items-center" data-aos="fade-up">
+            <div class="row text-white align-items-center" >
                 <div class="col-lg-7 mb-4 mb-lg-0">
                     <img src="./img/img-ngoaikhoa-min.png" class="mw-100 lazy" />
                 </div>
@@ -609,7 +619,7 @@
         </div>
     </section>
 
-    <section id="section-8" class="page-section" data-aos="fade-up">
+    <section id="section-8" class="page-section" >
         <div class="container">
             <h2 class="section-heading text-center">
                 Cảm nhận của sinh viên về Aptech
@@ -812,7 +822,7 @@
         </div>
     </section>
 
-    <section id="section-9" class="page-section py-5" data-aos="fade-up">
+    <section id="section-9" class="page-section py-5" >
         <div class="container">
             <div class="row align-items-start">
                 <div class="col-lg-7">
@@ -868,7 +878,7 @@
                         Chất lượng Quốc tế<br>Học phí Việt Nam
                     </h3>
                     <form id="form_1" name="form_1" class="form-horizontal" method="POST" action="">
-                        <input type="hidden" id="subject" name="subjectmail" value="Đăng ký Open Day 2018">
+                        <input type="hidden" id="subject" name="subjectmail" value="Đăng ký Hỗ trợ Siêu học bổng - It đánh bại Cô Vi">
                         <input type="hidden" id="web_path" name="web_path" value="<?php echo $url; ?>">
                         <?php $formKey->outputKey(); ?>
                         <div class="form-group">
@@ -882,7 +892,6 @@
                                 <option selected value="">Chọn địa điểm học</option>
                                 <option value=aptech1@aprotrain.com>Tòa nhà Aptech, 285 Đôi Cấn, Ba Đình, Hà Nội</option>
                                 <option value=aptech3@aprotrain.com>Tòa nhà Aptech, 54 Lê Thanh Nghị, Hai Bà Trưng, Hà Nội</option>
-                                <option value=aptech2@aprotrain.com>Tòa nhà Aptech, 212-214 Nguyễn Đình Chiểu, Quận 3, TP.HCM</option>
                             </select>
                         </div>
                         <div class="form-group">
@@ -943,23 +952,29 @@
         <img src="./img/icon-arrow-up-min.png" />
     </a>
 
+
+
+
+    <!-- JQUERY + POPPER + BOOTSTRAP -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+    <!-- SWEETALERT2 -->
+    <!-- <script src="sweetalert2.all.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+    <!-- JQUERY VALIDATE -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
+
+    <!-- CIRCLE CHART -->
+    <script src="./dist/circle-chart.min.js"></script>
+
     <!-- SCRIPT -->
     <script type="text/javascript" src="dist/script<?php echo $ext ?>.js<?php echo $version; ?>" async></script>
-    
-    <script>
-        document.querySelector('.btn-to-detail').addEventListener('click', e => {
-            document.querySelector('.panel-1').classList.remove('d-flex')
-            document.querySelector('.panel-1').classList.add('d-none')
-            document.querySelector('.panel-2').classList.remove('d-none')
-            document.querySelector('.panel-2').classList.add('d-flex')
-        })
-        document.querySelector('.btn-backup').addEventListener('click', e => {
-            document.querySelector('.panel-2').classList.remove('d-flex')
-            document.querySelector('.panel-2').classList.add('d-none')
-            document.querySelector('.panel-1').classList.remove('d-none')
-            document.querySelector('.panel-1').classList.add('d-flex')
-        })
-    </script>
 </body>
 
 </html>
