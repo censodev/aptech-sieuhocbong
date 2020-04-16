@@ -165,7 +165,9 @@ $(document).ready(function () {
         }
     };
 
-	window.HTMLGUN.init()
+    window.HTMLGUN.init()
+    
+    window.frames['ytFrame'].window.location.replace('https://www.youtube.com/embed/I-VEiZqVohQ');
 	
 	document.querySelector('.btn-to-detail').addEventListener('click', e => {
 		document.querySelector('.panel-1').classList.remove('d-flex')

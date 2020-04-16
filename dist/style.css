@@ -1,10 +1,12 @@
 @font-face {
   font-family: svn-gilroy;
   src: url(../font/SVN-GILROY\ REGULAR.OTF);
+  font-display: swap;
 }
 @font-face {
   font-family: svn-gilroy-thin;
   src: url(../font/SVN-GILROY\ THIN.OTF);
+  font-display: swap;
 }
 
 body #header .navbar-toggler span, body #header .navbar-toggler:before, body #header .navbar-toggler:after {

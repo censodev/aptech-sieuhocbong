@@ -50,7 +50,7 @@
     <title><?php echo $titlePage ?></title>
     
     <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="./dist/bootstrap.min.css">
+    <link rel="stylesheet" href="./dist/bootstrap/bootstrap.min.css">
 
     <!-- SWIPER -->
     <link rel="stylesheet" href="./dist/swiper.min.css">
@@ -221,7 +221,7 @@
                 </div>
                 <div class="col-lg-6"  data-aos-delay="50">
                     <div class="box-video">
-                        <iframe src="https://www.youtube.com/embed/I-VEiZqVohQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe name="ytFrame" src="" frameborder="0" allow="accelerometer;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -954,27 +954,29 @@
 
 
     <!-- JQUERY + BOOTSTRAP -->
-    <script src="./dist/jquery-3.5.0.min.js"></script>
-    <script src="./dist/util.min.js"></script>
-    <script src="./dist/tab.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script async src="./dist/bootstrap/util.min.js"></script>
+    <script async src="./dist/bootstrap/tab.min.js"></script>
+    <script async src="./dist/bootstrap/button.min.js"></script>
+    <script async src="./dist/bootstrap/collapse.min.js"></script>
     
     <!-- SWEETALERT2 -->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 
     <!-- SWIPER -->
-    <script src="./dist/swiper.min.js"></script>
+    <script defer src="./dist/swiper.min.js"></script>
 
     <!-- JQUERY FORM -->
-    <script src="./dist/jquery-form.min.js"></script>
+    <script defer src="./dist/jquery-form.min.js"></script>
 
     <!-- JQUERY VALIDATE -->
-    <script src="./dist/jquery-validation.min.js"></script>
+    <script defer src="./dist/jquery-validation.min.js"></script>
 
     <!-- CIRCLE CHART -->
     <script src="./dist/circle-chart.min.js"></script>
 
     <!-- SCRIPT -->
-    <script type="text/javascript" src="dist/script<?php echo $ext ?>.js<?php echo $version; ?>" async></script>
+    <script defer type="text/javascript" src="dist/script<?php echo $ext ?>.js<?php echo $version; ?>" async></script>
 </body>
 
 </html>
