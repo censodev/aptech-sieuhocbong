@@ -22,8 +22,8 @@
     $version = '?v=' . time();
 
     // MODE
-    $mode = 'dev';
-    // $mode = 'prod';
+    // $mode = 'dev';
+    $mode = 'prod';
 
     $ext = '';
 
@@ -49,13 +49,11 @@
 
     <title><?php echo $titlePage ?></title>
     
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=vietnamese" rel="stylesheet" />
-
     <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./dist/bootstrap.min.css">
 
     <!-- SWIPER -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="./dist/swiper.min.css">
 
     <!-- STYLE -->
     <link rel="stylesheet" href="dist/style<?php echo $ext ?>.css<?php echo $version; ?>" type="text/css" />
@@ -99,7 +97,7 @@
 
     <!-- Main Content -->
     <section id="section-banner" class="page-section">
-        <img class="pc-banner" src="img/banner-pc-sieuhocbong-min.png">
+        <img class="pc-banner" src="img/banner-pc-sieuhocbong-min.webp">
     </section>
 
     <section id="section-1" class="page-section">
@@ -955,20 +953,22 @@
 
 
 
-    <!-- JQUERY + POPPER + BOOTSTRAP -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        
+    <!-- JQUERY + BOOTSTRAP -->
+    <script src="./dist/jquery-3.5.0.min.js"></script>
+    <script src="./dist/util.min.js"></script>
+    <script src="./dist/tab.min.js"></script>
+    
     <!-- SWEETALERT2 -->
-    <!-- <script src="sweetalert2.all.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 
     <!-- SWIPER -->
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script src="./dist/swiper.min.js"></script>
+
+    <!-- JQUERY FORM -->
+    <script src="./dist/jquery-form.min.js"></script>
 
     <!-- JQUERY VALIDATE -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
+    <script src="./dist/jquery-validation.min.js"></script>
 
     <!-- CIRCLE CHART -->
     <script src="./dist/circle-chart.min.js"></script>

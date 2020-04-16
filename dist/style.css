@@ -23,10 +23,12 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: svn-gilroy;
+}
+
 body a {
   color: #292929;
-  -webkit-transition: all 0.3s easy-in-out;
-  transition: all 0.3s easy-in-out;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -241,7 +243,7 @@ body .page-section#section-2 .cup-list p {
 }
 
 body .page-section#section-3 {
-  background-image: url(../img/bg-1-min.png);
+  background-image: url(../img/bg-1-min.webp);
 }
 
 body .page-section#section-4 {
@@ -295,7 +297,7 @@ body .page-section#section-4 nav .nav-tabs .nav-item:not(.active):hover {
 }
 
 body .page-section#section-5 {
-  background-image: url(../img/bg-4-min.png);
+  background-image: url(../img/bg-4-min.webp);
 }
 
 body .page-section#section-5 .hiring-row {
@@ -321,7 +323,7 @@ body .page-section#section-5 .hiring-row:after {
 }
 
 body .page-section#section-7 {
-  background-image: url(../img/bg-2-min.png);
+  background-image: url(../img/bg-2-min.webp);
 }
 
 body .page-section#section-7 .icon-arrow {
@@ -425,7 +427,7 @@ body .page-section#section-8 .baochi-item .item-content .readmore {
 }
 
 body .page-section#section-9 {
-  background-image: url(../img/Layer_112-min.png);
+  background-image: url(../img/Layer_112-min_1.webp);
 }
 
 body .page-section#section-9 .text-bold {
