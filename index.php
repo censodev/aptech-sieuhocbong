@@ -919,19 +919,19 @@
                         <tr>
                             <td class="font-weight-bold pr-3">Hà Nội:</td>
                             <td><strong>54 Lê Thanh Nghị</strong>, Q. Hai Bà Trưng</td>
-                            <td class="font-weight-bold px-3">Tel: <a href="tel:1800 1141" class="text-whtie">1800 1141</a></td>
+                            <td class="font-weight-bold px-3">Tel: <a href="tel:1800 1141" class="text-white">1800 1141</a></td>
                             <td>Email: <a href="mailto:aptech1@aprotrain.com" target="_blank" class="text-white">aptech1@aprotrain.com</a></td>
                         </tr>
                         <tr>
                             <td></td>
                             <td><strong>285 Đội Cấn</strong>, Q. Ba Đình</td>
-                            <td class="font-weight-bold px-3">Tel: <a href="tel:1800 1147" class="text-whtie">1800 1147</a></td>
+                            <td class="font-weight-bold px-3">Tel: <a href="tel:1800 1147" class="text-white">1800 1147</a></td>
                             <td>Email: <a href="mailto:aptech3@aprotrain.com" target="_blank" class="text-white">aptech3@aprotrain.com</a></td>
                         </tr>
                         <tr>
                             <td class="font-weight-bold pr-3 pt-3" rowspan="2">TP.HCM:</td>
                             <td class="pt-0 pt-md-3"><strong>212 - 214 Nguyễn Đình Chiểu</strong>, P.6, Q.3</td>
-                            <td class="font-weight-bold px-3 pt-0 pt-md-3">Tel: <a href="tel:1800 1779" class="text-whtie">1800 1779</a></td>
+                            <td class="font-weight-bold px-3 pt-0 pt-md-3">Tel: <a href="tel:1800 1779" class="text-white">1800 1779</a></td>
                             <td class="pt-0 pt-md-3">Email: <a href="mailto:aptech2@aprotrain.com" target="_blank" class="text-white">aptech2@aprotrain.com</a></td>
                         </tr>
                     </table>
