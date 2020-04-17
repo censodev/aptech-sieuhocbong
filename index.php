@@ -97,7 +97,7 @@
 
     <!-- Main Content -->
     <section id="section-banner" class="page-section">
-        <img class="pc-banner" src="img/banner-pc-sieuhocbong-min.webp">
+        <img class="pc-banner" src="img/banner-pc-sieuhocbong-min.png">
     </section>
 
     <section id="section-1" class="page-section">
